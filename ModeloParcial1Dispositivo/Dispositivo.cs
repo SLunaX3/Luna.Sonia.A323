@@ -11,7 +11,7 @@ namespace ModeloParcial1Dispositivo
         private static List<Aplicacion> appsInstaladas;
         private static SistemaOperativo sistemaOperativo;
 
-        private static Dispositivo()
+        static Dispositivo()
         {
             appsInstaladas = new List<Aplicacion>(); // instancia de lista
             sistemaOperativo = SistemaOperativo.ANDROID; // seteará el sistema operativo de este dispositivo en ANDROID.

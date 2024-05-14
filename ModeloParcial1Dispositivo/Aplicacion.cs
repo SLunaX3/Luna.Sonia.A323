@@ -53,7 +53,7 @@ namespace ModeloParcial1Dispositivo
         /// Retorna los datos de la aplicación
         /// </summary>
         /// <returns></returns>
-        public string ObtenerInformacionApp() 
+        public virtual string ObtenerInformacionApp() 
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine($"Nombre: {nombre}{Environment.NewLine}");
